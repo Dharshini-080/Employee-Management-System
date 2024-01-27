@@ -7,6 +7,7 @@ public class App
 	{
 		EmployeeIntr dao=new EmployeeImpl();
 		System.out.print("Welcome to Employee management system\n");
+		
 		Scanner sc=new Scanner(System.in);
 		while(true){
 			System.out.print("1. Add employee\n" +
